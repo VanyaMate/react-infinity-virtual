@@ -1,0 +1,1 @@
+export { BottomInfinityScroll } from './bottom';
