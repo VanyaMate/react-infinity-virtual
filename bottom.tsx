@@ -77,11 +77,11 @@ export const BottomInfinityScroll: FC<BottomInfinityScrollProps> = memo(function
 
     useLayoutEffect(() => {
         if (containerRef.current) {
-            onScrollHandler?.(containerRef.current);
             const ref                      = containerRef.current;
             previousScrollPosition.current = ref.scrollTop;
 
             const onScroll = function () {
+                onScrollHandler?.(ref);
                 const { scrollTop, scrollHeight, offsetHeight } = ref;
 
                 const isTopScrolling  = previousScrollPosition.current > scrollTop;

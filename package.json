@@ -1,7 +1,7 @@
 {
     "name": "@vanyamate/react-infinity-virtual",
     "private": false,
-    "version": "0.1.0",
+    "version": "0.1.3",
     "type": "module",
     "scripts": {
         "build": "webpack"
@@ -9,7 +9,12 @@
     "description": "This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.",
     "main": "index.ts",
     "types": "dist/index.d.ts",
-    "keywords": [],
+    "keywords": [
+        "react",
+        "scroll",
+        "infinity",
+        "virtual"
+    ],
     "author": "Vanya Mate",
     "license": "ISC",
     "repository": {
