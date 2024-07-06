@@ -59,7 +59,7 @@ export const BottomInfinityScroll: FC<BottomInfinityScrollProps> = memo(function
         if (previousChildrenLength.current <= showAmount && children.length > showAmount) {
             setShowIndex(children.length - showAmount);
             previousChildrenLength.current = children.length;
-        } else if (previousChildrenLength.current !== children.length) {
+        } else if (children.length > showAmount && previousChildrenLength.current !== children.length) {
             if (previousFirstItem.current !== children[0]) {
                 previousFirstItem.current = children[0];
                 setShowIndex((prev) => {
