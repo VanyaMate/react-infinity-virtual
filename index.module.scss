@@ -1,8 +1,6 @@
 .container {
-    overflow   : auto;
-    max-height : 100dvh;
-    display    : flex;
-    padding    : 10px;
+    overflow : auto;
+    display  : flex;
 
     &.top {
         flex-direction : column;

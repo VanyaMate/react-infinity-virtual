@@ -1,7 +1,7 @@
 {
     "name": "@vanyamate/react-infinity-virtual",
     "private": false,
-    "version": "0.0.10",
+    "version": "0.1.0",
     "type": "module",
     "scripts": {
         "build": "webpack"
